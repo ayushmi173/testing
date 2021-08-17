@@ -1,185 +1,48 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <style>
-      ul {
-        padding: 0;
-        list-style: none;
-        background: #f2f2f2;
-      }
-      ul li {
-        display: inline-block;
-        position: relative;
-        line-height: 21px;
-        text-align: left;
-      }
-      ul li a {
-        display: block;
-        padding: 8px 25px;
-        color: #333;
-        text-decoration: none;
-      }
-      ul li a:hover {
-        color: #fff;
-        background: #939393;
-      }
-      ul li ul.dropdown {
-        min-width: 100%; /* Set width of the dropdown */
-        background: #f2f2f2;
-        display: none;
-        position: absolute;
-        z-index: 999;
-        left: 0;
-      }
-      ul li:hover ul.dropdown {
-        display: block; /* Display the dropdown */
-      }
-      ul li ul.dropdown li {
-        display: block;
-      }
-      .main-menu {
-        width: 400px;
-        height: 50px;
-        line-height: 50px;
-        list-style: none;
-        margin: 0;
-        float: right;
-        font: 18px 'Arial';
-        position: relative;
-      }
-      .main-menu li {
-        display: table-cell;
-        border-right: 1px solid #0854a9;
-        background: #a39c9c;
-      }
-      .main-menu li a {
-        line-height: 47px;
-        border-top: 3px solid transparent;
-        display: block;
-        padding: 0 8px;
-        color: #ffffff;
-      }
-      .main-menu li a:hover,
-      .main-menu li a:focus,
-      .main-menu li.dropped > a,
-      .main-menu li:focus > a {
-        color: #023e81;
-        background: #ff0000;
-        border-top: 3px solid #ffc226;
-        text-decoration: none;
-      }
-      .main-menu li:hover ul,
-      .main-menu li:focus ul {
-        display: block;
-      }
-      .sub-menu {
-        background: #c9c5c5;
-        position: absolute;
-        margin: 0;
-        display: none;
-        min-width: 148px;
-        border-bottom: 3px solid #ffc226;
-        -webkit-border-radius: 0 0 4px 4px;
-        border-radius: 0 0 4px 4px;
-      }
-      .sub-menu li {
-        display: block;
-        border: none;
-      }
-      .sub-menu li a {
-        line-height: normal;
-        border: none;
-        display: block;
-        padding: 8px;
-        color: #023e81;
-      }
-      .sub-menu li a:hover,
-      .sub-menu li a:focus {
-        line-height: auto;
-        border: none;
-        color: #ffffff;
-        background: #a1a6aa;
-      }
-      .main-menu li a:focus + ul {
-        display: block;
-      }
-    </style>
   </head>
 
   <body>
-    <img src="./1.jpeg" />
-    <img src="./2.jpeg" alt="anand chaudhary" />
-    <img src="./4.webp" alt="" />
-    <img src="./5.jpeg" alt="" />
-    <img src="./download.png" alt="" />
-
-    <div class="main-menu-wrapper">
-      <nav role="navigation" aria-label="Main menu">
-        <ul class="main-menu clearfix" role="menubar">
-          <li>
-            <a href="" tabindex="1">Main menu 1</a>
-
-            <ul class="sub-menu clearfix">
-              <li><a href="#">Sub menu 1</a></li>
-              <li><a href="#">Sub menu 2</a></li>
-              <li><a href="#">Sub menu 3</a></li>
-              <li><a href="#">Sub menu 4</a></li>
-              <li><a href="#">Sub menu 5</a></li>
-              <li><a href="#">Sub menu 6</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="" tabindex="1">Main menu 2</a>
-
-            <ul class="sub-menu clearfix">
-              <li><a href="#">Sub menu 1</a></li>
-              <li><a href="#">Sub menu 2</a></li>
-              <li><a href="#">Sub menu 3</a></li>
-              <li><a href="#">Sub menu 4</a></li>
-              <li><a href="#">Sub menu 5</a></li>
-              <li><a href="#">Sub menu 6</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="" tabindex="1">Main menu 3</a>
-
-            <ul class="sub-menu clearfix">
-              <li><a href="#">Sub menu 1</a></li>
-              <li><a href="#">Sub menu 2</a></li>
-              <li><a href="#">Sub menu 1</a></li>
-              <li><a href="#">Sub menu 2</a></li>
-              <li><a href="#">Sub menu 3</a></li>
-              <li><a href="#">Sub menu 4</a></li>
-              <li><a href="#">Sub menu 5</a></li>
-              <li><a href="#">Sub menu 6</a></li>
-              <li><a href="#">Sub menu 4</a></li>
-              <li><a href="#">Sub menu 5</a></li>
-              <li><a href="#">Sub menu 6</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="" tabindex="1">Main menu 4</a>
-
-            <ul class="sub-menu clearfix">
-              <li><a href="#">Sub menu 1</a></li>
-              <li><a href="#">Sub menu 2</a></li>
-              <li><a href="#">Sub menu 3</a></li>
-              <li><a href="#">Sub menu 4</a></li>
-              <li><a href="#">Sub menu 5</a></li>
-              <li><a href="#">Sub menu 6</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <img
+      src="https://assets-global.website-files.com/5faa2f162d0124566f0fd27c/5fc5f954cf58847c79be334e_PR%402x-p-500.png"
+      alt=""
+      height="300"
+      width="300"
+    />
+    <img
+      src="https://source.unsplash.com/random"
+      height="300"
+      width="300"
+      alt=""
+    />
+    <img
+      src="http://localhost:2003/2.jpeg"
+      alt="anand chaudhary"
+      height="300"
+      width="300"
+    />
+    <img src="./1.jpeg" alt="" height="300" width="300" />
+    <img
+      src="https://source.unsplash.com/user/erondu"
+      alt=""
+      height="300"
+      width="300"
+    />
+    <img
+      src="https://source.unsplash.com/user/rolex"
+      alt=""
+      height="300"
+      width="300"
+    />
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYfSAlQioAlgDf750zw5h_CCgBdhYENYu9A&usqp=CAU"
+      alt=""
+      height="300"
+      width="300"
+    />
 
     <div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
       <!-- textarea -->
 
       <!-- normal text area -->
@@ -581,8 +444,44 @@ vfdbdgb
         </div>
       </div>
     </div>
-
     <div id="root"></div>
- <script>(function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, language : 'en', position : 'right', leadColor : '#146FF8', triggerColor : '#146FF8', triggerRadius : '50%', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'right', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; e.appendChild(s);}());</script>
+<!--     <script type="text/javascript">
+      (function (global) {
+        let s = global.document.createElement('script');
+        s.src = 'http://localhost:2003/sdk.js';
+        s.async = true;
+        window.compliantIO = {
+          config: {
+            interface: {
+              leadColor: '#8be5c5',
+              position: 'LEFT',
+              statementLink: '',
+              footer: '',
+            },
+            trigger: {
+              buttonColor: '#ff1a1a',
+              horizontalOffset: 40,
+              verticalOffset: 40,
+              hide: false,
+              shape: 'SQUARE',
+              size: 'LARGE',
+              horizontalPosition: 'RIGHT',
+              verticalPosition: 'CENTER',
+            },
+            mobile: {
+              buttonColor: '#fffff',
+              horizontalOffset: 15,
+              verticalOffset: 15,
+              hide: false,
+              shape: 'ROUND',
+              size: 'MEDIUM',
+              horizontalPosition: 'RIGHT',
+              verticalPosition: 'BOTTOM',
+            },
+          },
+        };
+        global.document.body.appendChild(s);
+      })(window);
+    </script> -->
   </body>
 </html>
